@@ -1,0 +1,31 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Carla&acute;s Food
+  // Google Fonts
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap' rel='stylesheet')
+  // css
+  link(rel="stylesheet", href="style/style.css")
+  link(rel='stylesheet' href='style/home.css')
+
+.container
+  span.titulo Carla&acute;s Food
+  .main
+    form.form(action='https://formspree.io/f/mpzkpzjz' method="POST")
+      .letrero Te lo llevamos a casa
+      .card-body
+        input(type='text' name='direccion_casa' id='' placeholder='Introduzca su dirección')
+        input(type='email' name='direccion_correo_electronico' id='' placeholder='Introduzca su correo electrónico')
+        input(type="text" value= pedidoTotal class="hint" name = "Pedido Total")
+        input(type="text" value= precioTotal class="hint" name="Precio Total:")
+      input(type='submit' value='Confirmar')
+    form.form(action='https://formspree.io/f/mpzkpzjz' method="POST")
+      .letrero Recogida en tienda
+      .card-body
+        input(type='email' name='direccion_correo_electronico' placeholder='Introduzca su correo electroico')
+        input(type="text" value= pedidoTotal class="hint" name = "Pedido Total")
+        input(type="text" value= precioTotal class="hint" name="Precio Total")
+      input(type='submit' value='Confirmar')

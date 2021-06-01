@@ -1,0 +1,182 @@
+*,
+html {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: 'Rowdies', cursive;
+}
+
+.container {
+    background-color: #F86F6F;
+}
+
+div.container {
+    margin: 0 auto;
+}
+
+.brand {
+    -webkit-text-stroke: 1.5px white;
+    font-size: 28px;
+}
+
+
+div.img-card {
+    width: 50px;
+    height: 50px;
+}
+
+img#carrito-image {
+    width: 100%;
+    height: 100%;
+}
+
+nav.navbar {
+    margin: 0 10px;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.menu {
+    display: flex;
+    list-style: none;
+    background-color: #000;
+    margin: 5px 0;
+}
+
+.menu li {
+    margin: 0 5px;
+    background-color: #000;
+}
+
+.menu li a {
+    padding: 7px 13px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    color: #fff;
+}
+
+.menu div.img-card {
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header>div {
+    display: inline-block;
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    width: 100%;
+    height: 10px;
+}
+
+header>h1 {
+    -webkit-text-stroke: 2px black;
+    margin: 0 20px;
+}
+
+main {
+    margin: 5px;
+    padding: 10px;
+}
+
+div.img-container {
+    width: auto;
+    height: 144px;
+    text-align: center;
+}
+
+img.card-image {
+    width: 100%;
+    height: 100%;
+}
+
+.card-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card-group:nth-child(3) {
+    justify-content: flex-start;
+}
+
+.card-group:nth-child(3)>.card {
+    align-self: flex-start;
+    justify-self: flex-start;
+    width: 23%;
+}
+
+.card {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    margin: 13px;
+    padding: 8px;
+    text-align: center;
+    width: 25%;
+    height: 331px;
+    border: 1px transparent solid;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.card>span {
+    display: block;
+    font-size: 24px;
+}
+
+.btn-cantidad,
+span.precio {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+}
+
+span.precio {
+    color: #F86F6F;
+    margin-top: 15px;
+}
+
+.btn-add,
+.btn-cantidad {
+    font-family: 'Rowdies', cursive;
+}
+
+.btn-cantidad {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 9px 5px;
+    margin-top: -9px;
+    font-weight: bolder;
+}
+
+.btn-add {
+    display: inline-block;
+    background-color: #F86F6F;
+    border: none;
+    padding: 9px;
+    font-weight: bolder;
+    color: white;
+    font-size: 24px;
+}
+
+.btn-add:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,194 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex: 10px 10px;
+    background-color: unset;
+    padding: 10px;
+}
+
+.pedido {
+    width: 100%;
+    height: auto;
+}
+
+.precio {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+.lista-pedido,
+.lista-precio,
+.lista-cantidad {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+}
+
+.pedido-producto,
+.precio-producto,
+.cantidad {
+    width: 100%;
+    height: 40px;
+    margin: 5px auto;
+}
+
+.total {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+}
+
+.precio-total {
+    width: 66.4%;
+    height: 100%;
+    text-align: end;
+}
+
+.btn-comprar {
+    width: 33.6%;
+}
+
+.cantidad {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    align-content: center;
+}
+
+
+.numero {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    color: #FFF;
+}
+
+.pedido-producto,
+.precio-producto,
+.numero {
+    line-height: 40px;
+}
+
+.pedido-producto {
+    color: #000;
+    background-color: #fff;
+}
+
+.pedido,
+.precio {
+    -webkit-text-stroke: #FFF 1.2px;
+    color: #000;
+    font-weight: 700;
+}
+
+.pedido {
+    font-size: 48px;
+    -webkit-text-stroke: unset 0;
+    font-weight: 400;
+}
+
+.precio {
+    font-size: 20px;
+    font-weight: 400;
+    -webkit-text-stroke: #FFF 1px;
+}
+
+.lista-pedido {
+    border-right: 5px solid #000;
+}
+
+.lista-pedido,
+.lista-precio {
+    border-bottom: 5px solid #000;
+}
+
+.total {
+    margin-top: 30px;
+}
+
+.precio-total,
+.btn-comprar {
+    margin: 10px;
+}
+
+.precio-total {
+    padding-right: 60px;
+    align-items: center;
+}
+
+.precio-total span {
+    height: auto;
+}
+
+.precio-total span:nth-child(1) {
+    -webkit-text-stroke: #fff 1px;
+    color: #000;
+}
+
+.precio-total span:nth-child(2) {
+    background-color: #000;
+    font-size: 36px;
+    padding: 5px;
+    color: #FFF;
+}
+
+.btn-comprar>button {
+    width: auto;
+    color: #f86f6f;
+    -webkit-text-stroke: #000 1px;
+    font-weight: 700;
+    font-family: 'Rowdies', cursive;
+    font-size: 36px;
+    border: none;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.cantidad .btn:hover,
+.btn-comprar>button {
+    cursor: pointer;
+}
+
+.img-container {
+    width: 40px;
+    height: 40px;
+}
+
+.img-container>img {
+    width: 100%;
+    height: 100%;
+    margin: 0 5px;
+}
+
+a.comprar {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f86f6f;
+    -webkit-text-stroke: 1px #000;
+}
+
+.pedido-producto {
+    height: fit-content;
+}

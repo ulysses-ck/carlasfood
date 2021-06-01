@@ -1,0 +1,19 @@
+{
+  "name": "carla_food",
+  "version": "1.0.0",
+  "description": "app to deliver orders from a restaurant by email",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "author": "carla",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2",
+    "uuid": "^8.3.2"
+  }
+}

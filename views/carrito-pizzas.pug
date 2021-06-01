@@ -1,0 +1,168 @@
+extends nav
+
+block head 
+  .container
+    include ./nav-carrito.pug
+    header
+      div
+      h1.title-menu Pizzas
+      div
+    main
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/1-Carbonara.png' alt='Carbonara')
+          span.card-title Carbonara
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='Carbonara 15.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/2-Barbacoa.png' alt='Barbacoa')
+          span.card-title Barbacoa
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='Barbacoa 15.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/3-4 quesos.png' alt='4 quesos')
+          span.card-title 4 quesos
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='4 quesos 15.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/4-Pepperoni.png' alt='Pepperoni')
+          span.card-title Pepperoni
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='Pepperoni 15.00') A&ntilde;adir
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/5-Pollo frito.png' alt='Pollo frito')
+          span.card-title Pollo frito
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='Pollo Frito 15.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/6-Jamón.png' alt='Jam´n')
+          span.card-title
+            | Jam&oacute;n
+            n(span='')
+              select.btn-cantidad
+                option(value='00' selected='' disabled='') cant.
+                option(value='1') 1
+                option(value='2') 2
+                option(value='3') 3
+                option(value='4') 4
+                option(value='5') 5
+                option(value='6') 6
+                option(value='7') 7
+                option(value='8') 8
+                option(value='9') 9
+                option(value='10') 10
+              span.precio 15.00 &euro;
+              br
+              button.btn-add(value='Jamon 15.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/7-Vegetal.png' alt='Vegetal')
+          span.card-title Vegetal
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='Vegetal 15.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/4-Pizzas/8-Prosciutto.webp' alt='Prosciutto')
+          span.card-title Prosciutto
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 15.00 &euro;
+          br
+          button.btn-add(value='Prosciutto 15.00') A&ntilde;adir
+  // SCRIPTS
+  script(src='../script/cargar.js')

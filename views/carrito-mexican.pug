@@ -1,0 +1,166 @@
+extends nav 
+
+block head
+  .container
+    include ./nav-carrito.pug
+    header
+      div
+      h1.title-menu Mexican
+      div
+    main
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/1-Tacos.jpg' alt='tacos')
+          span.card-title Tacos
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 4.00 &euro;
+          br
+          button.btn-add(value='Tacos 4.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/2-Pozole.jpg' alt='pozole')
+          span.card-title Pozole
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 4.00 &euro;
+          br
+          button.btn-add(value='Pozole 4.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/3-Enchiladas.jpeg' alt='Enchiladas')
+          span.card-title Enchiladas
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 11.40 &euro;
+          br
+          button.btn-add(value='Enchiladas 11.40') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/4-Quesadillas.jpg' alt='Quesadillas')
+          span.card-title Quesadillas
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 7.00 &euro;
+          br
+          button.btn-add(value='Quesadillas 7.00') A&ntilde;adir
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/5-Frijoles con chile.jpg' alt='Frijoles con chile')
+          span.card-title Frijoles con chile
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 6.00 &euro;
+          br
+          button.btn-add(value='Frijoles con Chile 6.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/6-Burritos.jpg' alt='Burritos')
+          span.card-title Burritos
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 9.90 &euro;
+          br
+          button.btn-add(value='Burritos 9.90') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/7-Chili ternera.jpg' alt='Chili Ternera')
+          span.card-title Chili Ternera
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 9.00 &euro;
+          br
+          button.btn-add(value='Chili Ternera 9.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/7-Mexican/8-Tinga.jpg' alt='Tinga')
+          span.card-title Tinga
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 9.30 &euro;
+          br
+          button.btn-add(value='Tinga 9.30') A&ntilde;adir
+  // SCRIPTS
+  script(src='../script/cargar.js')

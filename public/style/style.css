@@ -1,0 +1,342 @@
+html,
+body {
+    margin: 5px;
+    font-family: 'Rowdies', cursive;
+}
+
+body {
+    background-color: #f86f6f;
+}
+
+header {
+    padding: 40px;
+}
+
+.container {
+    height: 100%;
+    background-color: #000000;
+    color: white;
+}
+
+.brand {
+    color: #C32121;
+    -webkit-text-stroke: 2px white;
+    text-transform: uppercase;
+}
+
+.title-brand {
+    font-size: 86px;
+    text-align: center;
+    line-height: 119px;
+}
+
+
+section.cards-container {
+    margin: 40px 0 40px 0;
+    background-color: #f86f6f;
+    text-shadow: none;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Rowdies', cursive;
+    font-weight: 900;
+}
+
+.cards-menu {
+    width: 100%;
+    margin: 10px 0 20px 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+a.card {
+    font-size: 32px;
+    margin: 10px 10px 10px 10px;
+    padding: 60px;
+    color: black;
+    background-color: #f86f6f;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+    font-weight: 900;
+    -webkit-text-stroke: 1.2px white;
+    /* text-shadow: 2px 0 0 #fff, -1.7px 0 0 #fff, 0 2px 0 #fff, 0 -1.7px 0 #fff, 2px 2px #fff, -1.7px -1.7px 0 #fff, 2px -1.7px 0 #fff, -1px 1px 0 #fff; */
+
+}
+
+a.card:link {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    -webkit-text-stroke: 1.2px white;
+    /* text-shadow: 2px 0 0 #fff, -1.7px 0 0 #fff, 0 2px 0 #fff, 0 -1.7px 0 #fff, 2px 2px #fff, -1.7px -1.7px 0 #fff, 2px -1.7px 0 #fff, -1px 1px 0 #fff; */
+}
+
+a.card:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    -webkit-text-stroke: 1.2px white;
+    /* text-shadow: 2px 0 0 #fff, -1.7px 0 0 #fff, 0 2px 0 #fff, 0 -1.7px 0 #fff, 2px 2px #fff, -1.7px -1.7px 0 #fff, 2px -1.7px 0 #fff, -1px 1px 0 #fff; */
+}
+
+a.card:visited {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    -webkit-text-stroke: 1.2px white;
+    /* text-shadow: 2px 0 0 #fff, -1.7px 0 0 #fff, 0 2px 0 #fff, 0 -1.7px 0 #fff, 2px 2px #fff, -1.7px -1.7px 0 #fff, 2px -1.7px 0 #fff, -1px 1px 0 #fff; */
+}
+
+a#Bebidas {
+    background-image: url("../images/Pagina 2/BEBIDAS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#Entrantes {
+    background-image: url("../images/Pagina 2/ENTRANTES.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#Postres {
+    background-image: url("../images/Pagina 2/POSTRES.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#Pizzas {
+    background-image: url("../images/Pagina 2/PIZZAS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#Burgers {
+    background-image: url("../images/Pagina 2/BURGERS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#Mexican {
+    background-image: url("../images/Pagina 2/MEXICAN.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a#Japanese {
+    background-image: url("../images/Pagina 2/SUSHI.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-1 {
+    grid-area: 1 / 1 / 2 / 5;
+}
+
+.card-2 {
+    grid-area: 1 / 5 / 2 / 9;
+}
+
+.card-3 {
+    grid-area: 1 / 9 / 2 / 13;
+}
+
+.card-4 {
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+.card-5 {
+    grid-area: 2 / 4 / 3 / 7;
+}
+
+.card-6 {
+    grid-area: 2 / 7 / 3 / 10;
+}
+
+.card-7 {
+    grid-area: 2 / 10 / 3 / 13;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.footer-brand {
+    margin: 0 0 0 40px;
+    justify-content: flex-start;
+    font-size: 36px;
+    grid-area: 1 / 1 / 3 / 2;
+    letter-spacing: 0;
+
+}
+
+.contact {
+    margin: -10px 0 30px 40px;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    grid-area: 1 / 4 / 3 / 5;
+}
+
+@media only screen and (max-width : 1122px) {
+    .cards-menu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .card-1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .card-2 {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .card-3 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .card-4 {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+
+    .card-5 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .card-6 {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+
+    .card-7 {
+        grid-area: 4 / 1 / 5 / 3;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .footer-brand {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .contact {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+}
+
+@media only screen and (max-width : 630px) {
+    .cards-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+        text-align: center;
+    }
+
+    .brand {
+        font-size: 36px;
+        font-weight: 100;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .card-1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .card-2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .card-3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .card-4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .card-5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .card-6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .card-7 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .footer-brand {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .contact {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+}
+
+@media only screen and (max-width : 552px) {
+    .cards-menu {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+    }
+
+    .card-1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .card-2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .card-3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .card-4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .card-5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .card-6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+    .card-7 {
+        grid-area: 7 / 1 / 8 / 2;
+    }
+}
+
+#number-contact {
+    padding: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+.footer-brand {
+    -webkit-text-stroke: 1.2px white;
+}
+
+.brand {
+    text-decoration: none;
+}

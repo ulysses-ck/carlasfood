@@ -1,0 +1,29 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: 'Rowdies', cursive;
+}
+
+span.brand {
+    font-size: 64px;
+    color: #C32121;
+    -webkit-text-stroke: 2px white;
+}
+
+div.rectangulo {
+    display: block;
+    background-color: #f86f6f;
+    width: auto;
+    height: 18px;
+}
+
+p {
+    color: white;
+    font-size: 64px;
+    font-weight: 300;
+}

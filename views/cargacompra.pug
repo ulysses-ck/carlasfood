@@ -1,0 +1,41 @@
+doctype html
+head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1.0')
+    title Carla&acute;s Food
+    // Google Fonts
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap' rel='stylesheet')
+    //cdn scripts
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    // css
+    link(rel='stylesheet' href='/style/style.css')
+    link(rel="stylesheet", href="/style/cargacompra.css")
+.container
+.pedido pedido
+h3
+  .precio Precio
+section
+  .lista-pedido
+    each val, index in pedidos
+      .pedido-producto= val.name
+  .lista-precio
+    each val, index in pedidos
+      .precio-producto= val.prize
+  .lista-cantidad
+    each val, index in pedidos
+      .cantidad
+        .numero= val.cant
+        a.btn(href=`/delete/${val.id}`)
+          .img-container
+            img(src="images/Iconos/basura.png", alt="asd")
+.total
+  .precio-total
+    span Total
+    span= `${total} €`
+  .btn-comprar
+    button
+      .img-container
+        img(src="images/Iconos/carrito.png", alt="")
+      a(href="/send").comprar Comprar 

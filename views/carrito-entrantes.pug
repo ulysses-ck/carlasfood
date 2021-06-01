@@ -1,0 +1,205 @@
+extends nav.pug
+
+block head
+  .container
+    include ./nav-carrito.pug
+    header
+      div
+      h1.title-menu Entrantes
+      div
+    main
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/1-Patatas fritas.jpg' alt='Patatas Fritas')
+          span.card-title Patatas Fritas
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 2.00 &euro;
+          br
+          button.btn-add(value='Patatas Fritas 2.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/2-Patatas con bacon y queso.png' alt='Patatas con Bacon y Queso')
+          span.card-title Patatas con Bacon y Queso
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 2.50 &euro;
+          br
+          button.btn-add(value='Patatas con Bacon y Queso 2.50') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/3-Patatas bravas.jpg' alt='Patatas bravas')
+          span.card-title Patatas bravas
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 2.50 &euro;
+          br
+          button.btn-add(value='Patatas Bravas 2.50') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/4-Alitas de pollo.jpg' alt='Alitas de Pollo (6 uds.)')
+          span.card-title Alitas de Pollo (6 uds.)
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 3.00 &euro;
+          br
+          button.btn-add(value='Alitas de Pollo (6 uds.) 3.00') A&ntilde;adir
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/5-Nachos con queso.jpg' alt='Nacho con Queso')
+          span.card-title Nacho con Queso
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 3.40 &euro;
+          br
+          button.btn-add(value='Nacho con Queso 3.40') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/6-Nachos con guacamole.jpg' alt='Nachos con guacamole')
+          span.card-title Nachos con guacamole
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 3.40 &euro;/ud
+          br
+          button.btn-add(value='Nachos con guacamole /ud 3.40') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/7-Aros de cebolla.jpg' alt='Aros de cebolla (6 uds.)')
+          span.card-title Aros de cebolla (6 uds.)
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 3.50 &euro;
+          br
+          button.btn-add(value='Aros de Cebolla (6 uds.) 3.50') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/8-Calamares fritos.jpg' alt='Calamares fritos')
+          span.card-title Calamares fritos
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 4.00 &euro;
+          br
+          button.btn-add(value='Calamares Fritos 4.00') A&ntilde;adir
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/9-Gyoza.jpg' alt='Gyoza (4 uds.)')
+          span.card-title Gyoza (4 uds.)
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 45.00 &euro;
+          br
+          button.btn-add(value='Gyoza (4 uds.) 45.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/1-Entrantes/10-Tempura.jpg' alt='Tempura')
+          span.card-title Tempura
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 3.50 &euro;
+          br
+          button.btn-add(value='Tempura 3.50') A&ntilde;adir
+  // SCRIPTS
+  script(src='../script/cargar.js')

@@ -1,0 +1,166 @@
+extends nav.pug
+
+block head
+  .container
+    include ./nav-carrito.pug
+    header
+      div
+      h1.title-menu Bebidas
+      div
+    main
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/1-Agua.jpg' alt='Agua')
+          span.card-title Agua
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value="1", name="1")  1
+            option(value="2", name="2")  2
+            option(value="3", name="3")  3
+            option(value="4", name="4")  4
+            option(value="5", name="5")  5
+            option(value="6", name="6")  6
+            option(value="7", name="7")  7
+            option(value="8", name="8")  8
+            option(value="9", name="9")  9
+            option(value="10", name="10")  10
+          span.precio 0.50 &euro;
+          br
+          button.btn-add(value='Agua 0.50') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/2-Coca-cola.jpg' alt='Coca cola')
+          span.card-title Coca cola
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 1.50 &euro;
+          br
+          button.btn-add(value='Coca Cola 1.50') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/3-Coca-cola Light.jpg' alt='Coca-cola Light')
+          span.card-title Coca-cola Light
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 1.20 &euro;
+          br
+          button.btn-add(value='Coca-cola Light 1.20') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/4-Fanta naranja.jpg' alt='Fanta naranja')
+          span.card-title Fanta naranja
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 1.20 &euro;
+          br
+          button.btn-add(value='Fanta Naranja 1.20') A&ntilde;adir
+      .card-group
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/5-Fanta limón.jpg' alt='Fanta limón')
+          span.card-title Fanta lim&oacute;n
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 1.20 &euro;
+          br
+          button.btn-add(value='Fanta limón 1.20') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/6-Nestea.jpg' alt='Nestea')
+          span.card-title Nestea
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 1.50 &euro;
+          br
+          button.btn-add(value='Nestea 1.50') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/7-Amstel.jpg' alt='Amstel')
+          span.card-title Amstel
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 2.00 &euro;
+          br
+          button.btn-add(value='Amstel 2.00') A&ntilde;adir
+        .card
+          .img-container
+            img.card-image(src='../images/Pagina 3/2-Bebidas/8-Mahou.jpg' alt='Mahou')
+          span.card-title Mahou
+          select.btn-cantidad
+            option(value='00' selected='' disabled='') cant.
+            option(value='1') 1
+            option(value='2') 2
+            option(value='3') 3
+            option(value='4') 4
+            option(value='5') 5
+            option(value='6') 6
+            option(value='7') 7
+            option(value='8') 8
+            option(value='9') 9
+            option(value='10') 10
+          span.precio 2.10 &euro;
+          br
+          button.btn-add(value='Mahou 2.10') A&ntilde;adir
+  // SCRIPTS
+  script(src='../script/cargar.js')
